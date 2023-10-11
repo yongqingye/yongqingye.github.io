@@ -4,7 +4,7 @@ author_profile: true
 excerpt: ""
 --- 
 
-##Contact 
+###Contact Information
 
 ### Email
  
