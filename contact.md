@@ -4,7 +4,7 @@ author_profile: true
 excerpt: ""
 --- 
 
-###Contact Information
+Please feel free to reach out if you would like to connect!
 
 ### Email
  
