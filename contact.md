@@ -9,6 +9,7 @@ Please feel free to reach out if you would like to connect!
 ### Email
  
 yeyongqi [at] msu [dot] edu
+yongqingye42 [at] gmail [dot] com
 
 ###  Address
  
