@@ -105,7 +105,7 @@ analytics:
 author: 
   name             : "Yongqing Ye"
   avatar           : /assets/images/yongqing.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "[she/her] phonetics, phonology, speech production and perception, sound change."
+  bio              : "[she/her] phonetics, phonology, speech production and perception, sociolinguistic variation, sound change."
   location         : "US"
   email            : yeyongqi@msu.edu
   links:
@@ -114,7 +114,7 @@ author:
   #    url: "yeyongqi@msu.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://yongqingye.github.io/"
+      url: "https://github.com/yongqingye"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/yongqingye/"
