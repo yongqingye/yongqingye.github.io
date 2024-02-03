@@ -14,7 +14,7 @@ Please feel free to reach out if you would like to connect!
     </div>
     <div style="border-left: 1px solid #000; padding-left: 50px;">
         <h4>Address</h4>
-        <p>B100 Wells Hall</p>
+        <p>B320 Wells Hall</p>
         <p>Department of Lanugages, Linguistics and Cultures</p>
         <p>Michigan State University</p>
         <p>619 Red Cedar Rd.</p>
