@@ -5,96 +5,90 @@ layout: home
 excerpt: ""
 author_profile: true
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<title> </title>
+<title>Research</title>
+<style>
+    .section-box {
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .img-rounded {
+        border-radius: 5px;
+    }
+    @media screen and (max-width: 768px) {
+        .col-md-6, .col-md-3, .col-md-9 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+</style>
 </head>
-  
-  
+
 <body>
-  <div id="Projects" name="Projects">
-  <div class="container">
-    <div class="row white">
-      <h2 class="centered"> </h2>
-      <hr>
-      
-     <!-- <div class="col-md-6"> <img class="img-rounded" 
-                                  src="/assets/images/PraatName.png" 
-                                  width="800" 
-                                  height="400" 
-                                  align=""> 
-                                  </div>
-      <div class="col-md-6"> -->
-      
-      
-      
-       <!-- First Section -->
-                <div class="col-md-6 section">
-                    <div class="col-md-3">
-                        <img class="img-rounded" src="/assets/images/mfcc.jpg" width="800" height="300" align="" alt="Section 1 Image">
-                    </div>
-                    <div class="col-md-9">
-
-         <h3 class = ="text-center">Perception of Nasalization</h3>
-        <p>This project focuses on understanding the production and perceptual mechanism of nasalization with formal models. This project introduces Bayesian perceptual models utilizing step-conditioned distributions for distinct categories of vowels. The primary objective is to explore how acoustic information influences listeners in evaluating candidates during the perception of vowel nasalization. To empirically assess this idea, the study examines a series of production and perception experiments conducted across languages with unique nasalization patterns—specifically, phonemic nasalization, phonological nasalization, and phonetic nasalization. Production data is used to train acoustic models for each vowel category (oral vowels, phonologically nasalized vowels, and phonemic nasal vowels) and tested using novel data, generating probability distributions for each category. The input of the models is a series of step-conditioned distributions of acoustics information, which allows us to capture the acoustic input over the time course of a vowel and make probabilistic predictions for the perception of vowel nasalization in different languages. The performance of the models will be compared with actual perception results from speakers of the respective languages. Central to this approach is the assumption that listeners possess the ability to learn and characterize the likelihood functions of linguistic units. These units can be effectively described through Gaussian distributions across various perceptual dimensions. Additionally, this approach posits that a listener's estimation of the likelihood function during perception continually updates in response to new experiences. By shedding light on the phonological theories that can account for nasalization perception patterns, this study raises further questions regarding the modeling of a perception-phonology interface.
-
- </p>
-
-</div>
+<div id="Projects" name="Projects">
+    <div class="container">
+        <!-- First Section -->
+        <div class="section-box">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-rounded" src="/assets/images/mfcc.jpg" width="800" height="300" alt="Section 1 Image">
                 </div>
-                <hr>
-                
-<!-- Second Section -->
-                <div class="col-md-6 section">
-                    <div class="col-md-3">
-                        <img class="img-rounded" src="/assets/images/michigan.jpg" width="800" height="300" align="" alt="Section 2 Image">
-                    </div>
-                    <div class="col-md-9">
+                <div class="col-md-9">
+                    <h3 class="text-center">Perception of Nasalization</h3>
+                    <p>This project examines the perception of vowel nasalization using formal perception models. It focuses on constructing and testing Bayesian perceptual models that employ step-conditioned distributions for distinct categories of vowels (phonemically nasal vowels, phonologically nasalized vowels, phonetically nasalized vowels and oral vowels). The primary objectives of this study are twofold: (1) to investigate how acoustic information influences listeners in evaluating candidates during the perception of vowel nasalization and (2) to establish formalizations of different theories in order to test them. To implement this idea, I work with a series of production and perception experiments conducted across three languages with unique vowel nasalization patterns – specifically, a language with phonemic nasal vowels, a language with phonological nasalization, and a language with phonetic nasalization. Production data is used to train acoustic models for each vowel category (/CVC/ for oral vowels, /CVN/ for nasalized vowels, and /C&#x1E7C;C/ for phonemic nasal vowels), generating likelihood distributions for each category. These trained distributions are tested with Bayesian perception models using a new set of data, which is also employed in the perception experiments. The performance of the models is compared with actual perception results from speakers of the respective languages.
+Central to this approach is the assumption that listeners possess the ability to learn and characterize the likelihood functions of linguistic units along multiple phonetic dimensions. These units can be effectively described through Gaussian distributions across various perceptual dimensions (Norris 1999; Norris and McQueen 2008a). By testing precise predictions of the perceptual theories that can account for nasalization perception patterns, this study sheds light on the role of acoustics and phonological knowledge, such as phoneme likelihood and underspecification, in listeners’ decision- making during continuous speech recognition.</p>
+                </div>
+            </div>
+        </div>
         
-        <h3 class = ="text-center">Nasalization in Michigan English</h3>
-        <p> This work has been presented at NWAV 51, you can download the slides <a href="/assets/NWAV51_NasalizationinMichiganEnglish_YY.pdf"> here</a> . 
-        
-        This study examines articulatory variation for a subphonemic representation, nasalization, in Michigan English. Research on sound change has primarily focused on changes to the phonetic implementation of individual phonemes, or to more phonological properties like allophonic conditioning. More research on community-level change to non-segmental features is needed to deepen our understanding of how such features change over time. Michigan English has been claimed to have the presence of nasal peaks and anti-formants in non-nasal environments (Plichta 2004), but
+        <!-- Second Section -->
+        <div class="section-box">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-rounded" src="/assets/images/michigan.jpg" width="800" height="300" alt="Section 2 Image">
+                </div>
+                <div class="col-md-9">
+                    <h3 class="text-center">Nasalization in Michigan English</h3>
+                    <p>
+                    This work has been presented at NWAV 51, you can download the slides <a href="/assets/NWAV51_NasalizationinMichiganEnglish_YY.pdf"> here</a> . 
+		<br>
+                 <br>
+                    This study examines articulatory variation for a subphonemic representation, nasalization, in Michigan English. Research on sound change has primarily focused on changes to the phonetic implementation of individual phonemes, or to more phonological properties like allophonic conditioning. More research on community-level change to non-segmental features is needed to deepen our understanding of how such features change over time. Michigan English has been claimed to have the presence of nasal peaks and anti-formants in non-nasal environments (Plichta 2004), but
 this has not been tested in real or apparent time. Prior work on Philadelphia English (Zellou and Tamminga 2014), however, confirmed that coarticulatory vowel nasalization can be targeted for
 change. The present study therefore tests whether degree and duration of vowel nasalization across different age groups in two distinct phonological contexts (pre-oral [CVC] and pre-nasal [CVN]) in Michigan English exhibit change in apparent time
 
-The data analyzed in this study comes from recordings collected by MI Diaries, a longitudinal project collecting self-recorded audio diaries from speakers (ages 3+) in the state of Michigan (Sneller, Wagner and Ye. 2022). A total of 22 hours of recordings from 54 native speakers of Michigan English (aged 18-74, 20 male, 32 female and 2 other) was analyzed. The degree of nasalization was measured with the acoustic
+The data analyzed in this study comes from recordings collected by MI Diaries, a longitudinal project collecting self-recorded audio diaries from speakers (ages 3+) in the state of Michigan (Sneller, Wagner and Ye. 2022). A total of 22 hours of recordings from 54 native speakers of Michigan English (aged 18-74, 20 male, 32 female and 2 others) was analyzed. The degree of nasalization was measured with the acoustic
 value  A<sub>1</sub>-p<sub>0</sub> (the amplitude of the first harmonic peak F1 minus the amplitude of the lowest nasal
 peak) (Chen 1997) in four target vowels – THOUGHT, LOT, FACE and GOAT. The formant extraction was automated using a modified Praat script designed to measure nasality in acoustic data (Styler 2017). Measurements were taken at ten timepoints during the vowel in three different phonological environments, the baseline [SVS], pre-oral [CVC] and pre-nasal [CVN] contexts. The duration of nasalization was calculated as the significant divergent timepoint between the nasal trajectories in pre-nasal and pre-oral contexts and the baseline. The results were analyzed in R (R Core Team 2021)
 with linear regression models. 
 
 The results show that as birth year increases, the degree of nasalization decreases (Figure 1) but the variability in the degree of vowel nasalization increases (Figure 2). This pattern is present across all contexts for all four vowels. The results for the duration of nasalization find that birth year does not have an effect on the duration of nasalization across all vowels and contexts in comparison with the baseline. Further examination shows participants, unsurprisingly, fully nasalize in pre-nasal context but exhibit a bimodal distribution in pre-oral context – they are either fully nasalizing their pre-oral vowels or not nasalizing at all.
 
-Younger speakers of Michigan English exhibit less nasality, in the degree of nasalization but not the duration, than older speakers, and their production of nasalization is more variable. This could be an indication that nasalization in Michigan English is undergoing generational change, as increased intraspeaker variability is expected for the early stages of certain types of phonological change (Fruehwald 2013; Sneller 2018). This study adds to a growing body of literature that documents articulatory variation and change in Michigan English, which has been undergoing a series of sound changes including what appears to be a new reorganization of its vowel system. </p> 
-
- </div>
+Younger speakers of Michigan English exhibit less nasality, in the degree of nasalization but not the duration, than older speakers, and their production of nasalization is more variable. This could be an indication that nasalization in Michigan English is undergoing generational change, as increased intraspeaker variability is expected for the early stages of certain types of phonological change (Fruehwald 2013; Sneller 2018). This study adds to a growing body of literature that documents articulatory variation and change in Michigan English, which has been undergoing a series of sound changes including what appears to be a new reorganization of its vowel system. </p>
                 </div>
-                <hr>
+            </div>
+        </div>
 
- <!-- Third Section -->
-                <div class="col-md-6 section">
-                    <div class="col-md-3">
-                        <img class="img-rounded" src="/assets/images/soundwaves.png" width="800" height="300" align="" alt="Section 3 Image">
-                    </div>
-                    <div class="col-md-9">
-
-        <h3 class = ="text-center">Phonological Inference</h3>
-        <p> The Perception of nasalization has been argued to be dependent on the listener’s knowledge of nasalization in the corresponding languages (Beddor and Krakow 1999;  Ohala and Ohala 1991, 1992), and is sensitive to coarticulation patterns in the language (Fowler and Brown 2000; Krakow et al. 1988; Zellou 2017). Questions remain about the underlying mechanism of the processing of nasal information
-in speech perception. This study focuses on a perceptual experiment with gated segments of nonce words in Mainstream American English. The results suggest that native listeners rely on phonological inference and lexical knowledge is not necessary to understand the incremental perception observed in previous research. This study adds to the discussion of the perception of nonce words and nasalization, and contributes to a larger line of theoretical inquiry in the role of the lexicon and modularity in perception.</p>
-      </div>
+        <!-- Third Section -->
+        <div class="section-box">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-rounded" src="/assets/images/soundwaves.png" width="800" height="300" alt="Section 3 Image">
+                </div>
+                <div class="col-md-9">
+                    <h3 class="text-center">Phonological Inference</h3>
+                    <p>The Perception of nasalization has been argued to be dependent on the listener’s knowledge of nasalization in the corresponding languages (Beddor and Krakow 1999;  Ohala and Ohala 1991, 1992), and is sensitive to coarticulation patterns in the language (Fowler and Brown 2000; Krakow et al. 1988; Zellou 2017). Questions remain about the underlying mechanism of the processing of nasal information in speech perception. This study focuses on a perceptual experiment with gated segments of nonce words in Mainstream American English. The results suggest that native listeners rely on phonological inference and lexical knowledge is not necessary to understand the incremental perception observed in previous research. This study adds to the discussion of the perception of nonce words and nasalization, and contributes to a larger line of theoretical inquiry in the role of the lexicon and modularity in perception.</p>
+                </div>
+            </div>
+        </div>
     </div>
-                    <hr>
-                    
-    <!-- row --> 
-  </div>
 </div>
-  
-
-
 </body>
 </html>
