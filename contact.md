@@ -6,7 +6,7 @@ excerpt: ""
 
 Please feel free to reach out if you would like to connect!
 
-<div style="border: 1px solid #ddd; padding: 15px; background-color: #9dc5c1; margin-bottom: 20px;">
+<div style="border: 1px solid #ddd; padding: 15px; background-color: #fffaf5; margin-bottom: 20px;">
         <h4>Email</h4>
         <p>yeyongqi[at] msu [dot] edu</p>
         <p>yongqingye42 [at] gmail [dot] com</p>
