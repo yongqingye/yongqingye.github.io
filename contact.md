@@ -6,8 +6,8 @@ excerpt: ""
 
 Please feel free to reach out if you would like to connect!
 
-<div style="display: flex; justify-content: space-between;">
-    <div style="margin-right: 50px; border: 2px solid #ddd; padding: 15px; border-radius: 10px;">
+<div style="border: 1px solid #ddd; padding: 20px; background-color: #f9f9f9;">
+    <div style="margin-bottom: 20px;">
         <h4>Email</h4>
         <p>yeyongqi[at] msu [dot] edu</p>
         <p>yongqingye42 [at] gmail [dot] com</p>
