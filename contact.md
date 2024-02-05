@@ -7,18 +7,17 @@ excerpt: ""
 Please feel free to reach out if you would like to connect!
 
 <div style="display: flex; justify-content: space-between;">
-    <div style="margin-right: 50px;">
+    <div style="margin-right: 50px; border: 2px solid #ddd; padding: 15px; border-radius: 10px;">
         <h4>Email</h4>
         <p>yeyongqi[at] msu [dot] edu</p>
         <p>yongqingye42 [at] gmail [dot] com</p>
     </div>
-    <div style="border-left: 1px solid #000; padding-left: 50px;">
+    <div style="border: 2px solid #ddd; padding: 15px; border-radius: 10px;">
         <h4>Address</h4>
-        <p>B320 Wells Hall</p>
+        <p> B320 Wells Hall</p>
         <p>Department of Lanugages, Linguistics and Cultures</p>
         <p>Michigan State University</p>
         <p>619 Red Cedar Rd.</p>
         <p>East Lansing, MI. 48824.</p>
     </div>
 </div>
-
