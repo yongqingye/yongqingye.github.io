@@ -1,31 +1,45 @@
----
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\begin{document}
+\begin{align*}---
 permalink: "/contact/"
 layout: home
 author_profile: true
 excerpt: ""
 ---
 
-
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-    <!-- Left side: Text Boxes -->
-    <div style="flex: 1; margin-right: 20px; display: flex; flex-direction: column;">
-        <div style="border: 1px solid #ddd; padding: 15px; background-color: #f0edee; margin-bottom: 20px; border-radius: 10px; flex-grow: 1;">
-            <h4>Email</h4>
-            <p>yeyongqi[at]msu[dot]edu</p>
-            <p>yongqingye42[at]gmail[dot]com</p>
-        </div>
-        <div style="border: 1px solid #ddd; padding: 15px; background-color: #f0edee; border-radius: 10px; flex-grow: 1;">
-            <h4>Address</h4>
-            <p>B320 Wells Hall</p>
-            <p>Department of Languages, Linguistics and Cultures</p>
-            <p>Michigan State University</p>
-            <p>619 Red Cedar Rd.</p>
-            <p>East Lansing, MI. 48824.</p>
-        </div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+    <!-- Top Left: Email Text -->
+    <div style="border: 1px solid #ddd; padding: 15px; background-color: #f0edee; border-radius: 10px; display: flex; flex-direction: column; justify-content: center;">
+        <h4>Email</h4>
+        <p>yeyongqi[at]msu[dot]edu</p>
+        <p>yongqingye42[at]gmail[dot]com</p>
     </div>
 
-    <!-- Right side: Image -->
-    <div style="flex: 1;">
+    <!-- Top Right: Image with Caption -->
+    <div style="display: flex; flex-direction: column; align-items: center;">
         <img src="/assets/images/msuforest.jpg" style="max-width: 100%; border-radius: 10px;">
+        <p style="font-size: small; margin-top: 5px;">Sanford Nature Area, Michigan State University</p>
+    </div>
+
+    <!-- Bottom Left: Different Image with Caption -->
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <img src="/assets/images/redCedarRiver.jpg" style="max-width: 100%; border-radius: 10px;">
+        <p style="font-size: small; margin-top: 5px;">Red Cedar River, Michigan State University</p>
+    </div>
+
+    <!-- Bottom Right: Address Text -->
+    <div style="border: 1px solid #ddd; padding: 15px; background-color: #f0edee; border-radius: 10px; display: flex; flex-direction: column; justify-content: center;">
+        <h4>Address</h4>
+        <p>B320 Wells Hall</p>
+        <p>Department of Languages, Linguistics and Cultures</p>
+        <p>Michigan State University</p>
+        <p>619 Red Cedar Rd.</p>
+        <p>East Lansing, MI. 48824.</p>
     </div>
 </div>
+\end{align*}
+\end{document}
