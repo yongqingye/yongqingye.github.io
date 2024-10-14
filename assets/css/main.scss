@@ -5,5 +5,30 @@ search: false
 
 @charset "utf-8";
 
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Custom styles font size */
+
+/* Override font size and style */
+body {
+  font-family: 'Roboto', sans-serif; /* Apply Google Font */
+  font-size: 18px; /* Global font size for body text */
+  font-weight: 400; /* Normal weight */
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px; /* Larger size for headers */
+  font-weight: 700; /* Bold headers */
+  font-style: italic; /* Italic headers */
+}
+
+/* If paragraphs are to inherit from body, no need to define p specifically */
+/* Optionally remove or adjust paragraph font size separately if needed */
+p {
+  font-size: 18px;
+}
