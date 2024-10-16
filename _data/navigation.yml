@@ -6,8 +6,8 @@ main:
      url: /
    - title: "Research"
      url: /research/
-   - title: "Contact"
-     url: /contact/
+   - title: "CV"
+     url: /assets/yongqingyeCV.pdf
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
