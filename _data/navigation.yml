@@ -6,9 +6,10 @@ main:
      url: /
    - title: "Research"
      url: /research/
+   - title: "Teaching"
+     url: /teaching/
    - title: "CV"
      url: /assets/yongqingyeCV.pdf
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+
   # - title: "Sitemap"
   #   url: /sitemap/
