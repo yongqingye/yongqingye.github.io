@@ -103,9 +103,9 @@ analytics:
 
 # Site Author
 author: 
-  name             : "Yongqing Ye"
+  name             : "Yongqing (Anthea) Ye"
   avatar           : /assets/images/yongqing.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "[she/her] phonetics, phonology, speech production and perception, sociolinguistic variation, sound change."
+  bio              : "[she/her] computational phonology, phonetics, speech production and perception, sociolinguistic variation, sound change."
   location         : "US"
   email            : yeyongqi@msu.edu
   links:
